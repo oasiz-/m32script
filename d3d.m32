@@ -3700,9 +3700,6 @@ onevent EVENT_GETNUMBER
         rotatesprite16 rhx rhy rbz 0 rpt 32 0 1057 0 8 xdim 10
         rotatesprite16 rhx rhy rbz 0 rpt 32 0 1057 0 8 xdim 12
         set getnumbervalue RETURN
-        
-        addlogvar RETURN
-        addlogvar THISACTOR
     }
 endevent
 
